@@ -1,7 +1,4 @@
 import "package:flutter/material.dart";
-import "package:first_app/gradientty.dart";
-
-import "package:first_app/diceRoller.dart";
 
 class Textyy extends StatelessWidget {
   Textyy({super.key});

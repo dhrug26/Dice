@@ -1,7 +1,7 @@
 import "dart:math";
 
 import "package:flutter/material.dart";
-import "package:first_app/gradientty.dart";
+
 import "package:first_app/textty.dart";
 
 class DiceRoller extends StatefulWidget {
@@ -21,8 +21,6 @@ class _DiceRoller extends State<DiceRoller> {
       var Outcome = Random().nextInt(6) + 1;
       activeDiceColor = Image.asset('assets/img/dice-$Outcome.png');
     });
-
-    print('Working Finally');
   }
 
   @override

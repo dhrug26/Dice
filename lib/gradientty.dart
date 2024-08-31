@@ -1,5 +1,5 @@
 import "package:flutter/material.dart";
-import "package:first_app/textty.dart";
+
 import "package:first_app/diceRoller.dart";
 
 var sAL = Alignment.topLeft;
